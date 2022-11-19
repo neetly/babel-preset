@@ -29,7 +29,7 @@ module.exports = (api, { targets }) => {
       },
 
       {
-        test: /node_modules/,
+        test: /[/\\]node_modules[/\\]/,
         compact: true,
       },
     ],
