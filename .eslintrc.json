@@ -1,8 +1,4 @@
 {
   "root": true,
-  "extends": "@neetly/eslint-config",
-
-  "env": {
-    "node": true
-  }
+  "extends": "@neetly/eslint-config/node"
 }

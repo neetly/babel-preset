@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
-    "@neetly/eslint-config": "^0.2.0",
+    "@neetly/eslint-config": "^0.3.0",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "eslint": "^8.28.0",
