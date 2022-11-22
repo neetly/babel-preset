@@ -7,7 +7,8 @@
 yarn add --dev @neetly/babel-preset
 ```
 
-```json
+```jsonc
+// <root>/babel.config.json
 {
   "presets": ["@neetly/babel-preset"]
 }
