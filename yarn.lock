@@ -413,6 +413,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-proposal-decorators@npm:^7.21.0":
+  version: 7.21.0
+  resolution: "@babel/plugin-proposal-decorators@npm:7.21.0"
+  dependencies:
+    "@babel/helper-create-class-features-plugin": "npm:^7.21.0"
+    "@babel/helper-plugin-utils": "npm:^7.20.2"
+    "@babel/helper-replace-supers": "npm:^7.20.7"
+    "@babel/helper-split-export-declaration": "npm:^7.18.6"
+    "@babel/plugin-syntax-decorators": "npm:^7.21.0"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: f501690ccb2207c9d004262adb513e4ce805b1217e5828830eabebfc80d20e2b18519581d047fe40413d65a96a477b8f65c3d4aa9a7fe6512e42a69eacf24a90
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-proposal-dynamic-import@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/plugin-proposal-dynamic-import@npm:7.18.6"
@@ -593,6 +608,17 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: a9f8be55e4182dedb4204d16c60cfeeda7ab8a1e01943799fca7ef9bbfad1a84a65b4f768649300203d8035cc1ff0c373d0c56a635305e44df90778b1c4424c3
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-syntax-decorators@npm:^7.21.0":
+  version: 7.21.0
+  resolution: "@babel/plugin-syntax-decorators@npm:7.21.0"
+  dependencies:
+    "@babel/helper-plugin-utils": "npm:^7.20.2"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: c1bb87942be4d84bf95c9c25d2188836552b91d38eae5739a57eb523672141c17c3a1420b58ba40f4d43edad20024080040f97975ecf03467215e36ba2f82797
   languageName: node
   linkType: hard
 
@@ -1488,6 +1514,7 @@ __metadata:
   resolution: "@neetly/babel-preset@workspace:."
   dependencies:
     "@babel/core": "npm:^7.21.0"
+    "@babel/plugin-proposal-decorators": "npm:^7.21.0"
     "@babel/preset-env": "npm:^7.20.2"
     "@babel/preset-react": "npm:^7.18.6"
     "@babel/preset-typescript": "npm:^7.21.0"

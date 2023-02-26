@@ -13,6 +13,12 @@ module.exports = (api, { targets }) => {
         },
       ],
     ],
+    plugins: [
+      [
+        require.resolve("@babel/plugin-proposal-decorators"),
+        { version: "2023-01" },
+      ],
+    ],
 
     overrides: [
       {
