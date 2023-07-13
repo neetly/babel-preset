@@ -31,45 +31,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/compat-data@npm:^7.22.5, @babel/compat-data@npm:^7.22.6":
-  version: 7.22.6
-  resolution: "@babel/compat-data@npm:7.22.6"
-  checksum: 09971bda48c46e19d8f1d8c817ebd60ccca2ca30b90324ba6227cfa3765847a9ddd7730481ec81149a2270e2c90c2674e41ebbb73258e48c37922171ffe1e6dc
+"@babel/compat-data@npm:^7.22.5, @babel/compat-data@npm:^7.22.6, @babel/compat-data@npm:^7.22.9":
+  version: 7.22.9
+  resolution: "@babel/compat-data@npm:7.22.9"
+  checksum: 1334264b041f8ad4e33036326970c9c26754eb5c04b3af6c223fe6da988cbb8a8542b5526f49ec1ac488210d2f710484a0e4bcd30256294ae3f261d0141febad
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.22.8":
-  version: 7.22.8
-  resolution: "@babel/core@npm:7.22.8"
+"@babel/core@npm:^7.22.9":
+  version: 7.22.9
+  resolution: "@babel/core@npm:7.22.9"
   dependencies:
     "@ampproject/remapping": "npm:^2.2.0"
     "@babel/code-frame": "npm:^7.22.5"
-    "@babel/generator": "npm:^7.22.7"
-    "@babel/helper-compilation-targets": "npm:^7.22.6"
-    "@babel/helper-module-transforms": "npm:^7.22.5"
+    "@babel/generator": "npm:^7.22.9"
+    "@babel/helper-compilation-targets": "npm:^7.22.9"
+    "@babel/helper-module-transforms": "npm:^7.22.9"
     "@babel/helpers": "npm:^7.22.6"
     "@babel/parser": "npm:^7.22.7"
     "@babel/template": "npm:^7.22.5"
     "@babel/traverse": "npm:^7.22.8"
     "@babel/types": "npm:^7.22.5"
-    "@nicolo-ribaudo/semver-v6": "npm:^6.3.3"
     convert-source-map: "npm:^1.7.0"
     debug: "npm:^4.1.0"
     gensync: "npm:^1.0.0-beta.2"
     json5: "npm:^2.2.2"
-  checksum: d506ac42eaf2f7c3c190cc91a1413bb9ae5c067e06268fa962cb5fd0e67fc0feb48c7fa51527da378e3cc3a92a13a3420bae877df89207d880c839b6bb73e662
+    semver: "npm:^6.3.1"
+  checksum: 4dffc8844bd8ab5c292e795f3eb0e636246177d28b75ec99f3349a29fe08a9f3e089fe68b857ed160f3312c035c8fb73fdc83b0c781f4629164e548a7d62a8c7
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.22.7":
-  version: 7.22.7
-  resolution: "@babel/generator@npm:7.22.7"
+"@babel/generator@npm:^7.22.7, @babel/generator@npm:^7.22.9":
+  version: 7.22.9
+  resolution: "@babel/generator@npm:7.22.9"
   dependencies:
     "@babel/types": "npm:^7.22.5"
     "@jridgewell/gen-mapping": "npm:^0.3.2"
     "@jridgewell/trace-mapping": "npm:^0.3.17"
     jsesc: "npm:^2.5.1"
-  checksum: 7eb106916d782d397d0d4370bb4b23229229481218693a55f3fc0b756d4e9dc39cee41872f1735decb0b34be8dbb98c4488d5f7abbf6e40826d5dcac045b1f12
+  checksum: 6ef82c7f6dc8f749c0eb3a04fe35acab032a9221d82984e67cbbada449ca857dd981e08c129f9cf5d2f342ba00efcc683a99e46a470f233b0948edf197e35d26
   languageName: node
   linkType: hard
 
@@ -91,18 +91,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-compilation-targets@npm:^7.22.5, @babel/helper-compilation-targets@npm:^7.22.6":
-  version: 7.22.6
-  resolution: "@babel/helper-compilation-targets@npm:7.22.6"
+"@babel/helper-compilation-targets@npm:^7.22.5, @babel/helper-compilation-targets@npm:^7.22.6, @babel/helper-compilation-targets@npm:^7.22.9":
+  version: 7.22.9
+  resolution: "@babel/helper-compilation-targets@npm:7.22.9"
   dependencies:
-    "@babel/compat-data": "npm:^7.22.6"
+    "@babel/compat-data": "npm:^7.22.9"
     "@babel/helper-validator-option": "npm:^7.22.5"
-    "@nicolo-ribaudo/semver-v6": "npm:^6.3.3"
     browserslist: "npm:^4.21.9"
     lru-cache: "npm:^5.1.1"
+    semver: "npm:^6.3.1"
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: a37ae986bbfc61bc1adebe05a415ac03e0e8100e4b1ccbfd6ed90ffe201947beae9d7bd2cebe562199e1326797f908153d7b544520786eecf99fccb9db3c0fa9
+  checksum: 543b9a45800c1db2f91cc53462ed1799834a1259e498d3d91f45816ae79d19719ef957fa00b0f015d8b768eac09fd1f4f5f42f868c5a10f4389e3883a3f050f1
   languageName: node
   linkType: hard
 
@@ -197,19 +197,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-transforms@npm:^7.22.5":
-  version: 7.22.5
-  resolution: "@babel/helper-module-transforms@npm:7.22.5"
+"@babel/helper-module-transforms@npm:^7.22.5, @babel/helper-module-transforms@npm:^7.22.9":
+  version: 7.22.9
+  resolution: "@babel/helper-module-transforms@npm:7.22.9"
   dependencies:
     "@babel/helper-environment-visitor": "npm:^7.22.5"
     "@babel/helper-module-imports": "npm:^7.22.5"
     "@babel/helper-simple-access": "npm:^7.22.5"
-    "@babel/helper-split-export-declaration": "npm:^7.22.5"
+    "@babel/helper-split-export-declaration": "npm:^7.22.6"
     "@babel/helper-validator-identifier": "npm:^7.22.5"
-    "@babel/template": "npm:^7.22.5"
-    "@babel/traverse": "npm:^7.22.5"
-    "@babel/types": "npm:^7.22.5"
-  checksum: 9/200649c6a786429aa877cb4d326ad9fccfc5a58e3da844e529ed607e683d2860bf594fa688572ffcf5437e81c0ffa082489d242fff02884a1f49cd956923c9b8
+  peerDependencies:
+    "@babel/core": ^7.0.0
+  checksum: 1844dc2c9049552d13d40385cb196704a754feab60ef8c370a5e1c431a4f64b0ddd7bb1dddaa5c98288cafd5c08cd4d8e6d5aba9a11e1133b8b999ab7c9defd1
   languageName: node
   linkType: hard
 
@@ -275,7 +274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-split-export-declaration@npm:^7.22.5, @babel/helper-split-export-declaration@npm:^7.22.6":
+"@babel/helper-split-export-declaration@npm:^7.22.6":
   version: 7.22.6
   resolution: "@babel/helper-split-export-declaration@npm:7.22.6"
   dependencies:
@@ -1283,12 +1282,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.22.7":
-  version: 7.22.7
-  resolution: "@babel/preset-env@npm:7.22.7"
+"@babel/preset-env@npm:^7.22.9":
+  version: 7.22.9
+  resolution: "@babel/preset-env@npm:7.22.9"
   dependencies:
-    "@babel/compat-data": "npm:^7.22.6"
-    "@babel/helper-compilation-targets": "npm:^7.22.6"
+    "@babel/compat-data": "npm:^7.22.9"
+    "@babel/helper-compilation-targets": "npm:^7.22.9"
     "@babel/helper-plugin-utils": "npm:^7.22.5"
     "@babel/helper-validator-option": "npm:^7.22.5"
     "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression": "npm:^7.22.5"
@@ -1362,14 +1361,14 @@ __metadata:
     "@babel/plugin-transform-unicode-sets-regex": "npm:^7.22.5"
     "@babel/preset-modules": "npm:^0.1.5"
     "@babel/types": "npm:^7.22.5"
-    "@nicolo-ribaudo/semver-v6": "npm:^6.3.3"
     babel-plugin-polyfill-corejs2: "npm:^0.4.4"
     babel-plugin-polyfill-corejs3: "npm:^0.8.2"
     babel-plugin-polyfill-regenerator: "npm:^0.5.1"
     core-js-compat: "npm:^3.31.0"
+    semver: "npm:^6.3.1"
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 4463c50ccab7aa06a60dde5c1f6e94fdf18e425935b13a1bf168ece9b7bd29dcad015a788581a5c5297bae28a3adcea2472fc74d4e1296aa7195ce0a72a9cac5
+  checksum: fad75686dd55638be71657edbd428bb0266a3f34bc6e367bd55fbff911652c971fcea3e5c346288d4e0a15c81b732c4a2549fce97910b602e19170fe1ddf72d0
   languageName: node
   linkType: hard
 
@@ -1598,9 +1597,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@neetly/babel-preset@workspace:."
   dependencies:
-    "@babel/core": "npm:^7.22.8"
+    "@babel/core": "npm:^7.22.9"
     "@babel/plugin-proposal-decorators": "npm:^7.22.7"
-    "@babel/preset-env": "npm:^7.22.7"
+    "@babel/preset-env": "npm:^7.22.9"
     "@babel/preset-react": "npm:^7.22.5"
     "@babel/preset-typescript": "npm:^7.22.5"
     "@neetly/eslint-config": "npm:^0.5.1"
@@ -4186,12 +4185,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "semver@npm:6.3.0"
+"semver@npm:^6.3.0, semver@npm:^6.3.1":
+  version: 6.3.1
+  resolution: "semver@npm:6.3.1"
   bin:
-    semver: ./bin/semver.js
-  checksum: 9/18f3d42ec70a542e9efc498ecc3d0b9b088099115e8658b49d2bfc6470b46a6144b294374dac3f343fe1600039cbd80d5e830dd356053fd5abd4f1af5118a928
+    semver: bin/semver.js
+  checksum: e3d79b609071caa78bcb6ce2ad81c7966a46a7431d9d58b8800cfa9cb6a63699b3899a0e4bcce36167a284578212d9ae6942b6929ba4aa5015c079a67751d42d
   languageName: node
   linkType: hard
 
