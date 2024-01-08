@@ -39,7 +39,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.23.7":
+"@babel/core@npm:7.23.7":
   version: 7.23.7
   resolution: "@babel/core@npm:7.23.7"
   dependencies:
@@ -379,7 +379,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-decorators@npm:^7.23.7":
+"@babel/plugin-proposal-decorators@npm:7.23.7":
   version: 7.23.7
   resolution: "@babel/plugin-proposal-decorators@npm:7.23.7"
   dependencies:
@@ -1277,7 +1277,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.23.7":
+"@babel/preset-env@npm:7.23.7":
   version: 7.23.7
   resolution: "@babel/preset-env@npm:7.23.7"
   dependencies:
@@ -1380,7 +1380,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.23.3":
+"@babel/preset-react@npm:7.23.3":
   version: 7.23.3
   resolution: "@babel/preset-react@npm:7.23.3"
   dependencies:
@@ -1396,7 +1396,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.23.3":
+"@babel/preset-typescript@npm:7.23.3":
   version: 7.23.3
   resolution: "@babel/preset-typescript@npm:7.23.3"
   dependencies:
@@ -1580,21 +1580,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@neetly/babel-preset@workspace:."
   dependencies:
-    "@babel/core": "npm:^7.23.7"
-    "@babel/plugin-proposal-decorators": "npm:^7.23.7"
-    "@babel/preset-env": "npm:^7.23.7"
-    "@babel/preset-react": "npm:^7.23.3"
-    "@babel/preset-typescript": "npm:^7.23.3"
-    "@neetly/eslint-config": "npm:^0.7.0"
-    eslint: "npm:^8.56.0"
-    prettier: "npm:^3.1.1"
-    typescript: "npm:^5.3.3"
+    "@babel/core": "npm:7.23.7"
+    "@babel/plugin-proposal-decorators": "npm:7.23.7"
+    "@babel/preset-env": "npm:7.23.7"
+    "@babel/preset-react": "npm:7.23.3"
+    "@babel/preset-typescript": "npm:7.23.3"
+    "@neetly/eslint-config": "npm:0.7.0"
+    eslint: "npm:8.56.0"
+    prettier: "npm:3.1.1"
+    typescript: "npm:5.3.3"
   peerDependencies:
     "@babel/core": "*"
   languageName: unknown
   linkType: soft
 
-"@neetly/eslint-config@npm:^0.7.0":
+"@neetly/eslint-config@npm:0.7.0":
   version: 0.7.0
   resolution: "@neetly/eslint-config@npm:0.7.0"
   dependencies:
@@ -2710,7 +2710,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.56.0":
+"eslint@npm:8.56.0":
   version: 8.56.0
   resolution: "eslint@npm:8.56.0"
   dependencies:
@@ -4001,7 +4001,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.1.1":
+"prettier@npm:3.1.1":
   version: 3.1.1
   resolution: "prettier@npm:3.1.1"
   bin:
@@ -4638,7 +4638,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.3.3":
+"typescript@npm:5.3.3":
   version: 5.3.3
   resolution: "typescript@npm:5.3.3"
   bin:
@@ -4648,7 +4648,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>":
   version: 5.3.3
   resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
