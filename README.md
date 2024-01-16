@@ -10,6 +10,6 @@ yarn add --dev @neetly/babel-preset
 ```jsonc
 // babel.config.json
 {
-  "presets": ["@neetly/babel-preset"]
+  "presets": ["@neetly/babel-preset"],
 }
 ```
